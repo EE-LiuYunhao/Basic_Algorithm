@@ -23,6 +23,7 @@ int main(int argc, char const *argv[])
   quick_sort(lst, 0, len);
   printf("Sorted list\n");
   output_list(lst, len);
+  free(lst);
   return 0;
 }
 
